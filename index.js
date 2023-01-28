@@ -26,7 +26,7 @@ let author = [
 genrateQuote = ()=>{
     let newQuote = Math.floor(Math.random()*10);
     $("#text").text(quote[newQuote]);
-    $("#author").text(author[newQuote]);
+    $("#author").text("- ".concat(author[newQuote]));
 }
 
 genrateQuote();

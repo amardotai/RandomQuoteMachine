@@ -4,10 +4,26 @@ body{
 }
 #quote-box{
     margin: auto;
-    margin-top: 35vh;
-    border: 2px solid black;
-    height: 30vh;
+    margin-top: 30vh;
+    min-height: 30vh;
     width: 35vw;
     padding: 1rem 2rem;
-    
+    background-color: white;
+    color: aqua;
+    border-radius: 0.5rem;
+}
+#new-quote, #tweet-quote{
+    padding: 0.5rem 0.75rem;
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    margin-right:2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+#author{
+    text-align: right;
+    font-weight: 100;
+    font-style: italic;
 }
