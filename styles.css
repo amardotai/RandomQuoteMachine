@@ -1,0 +1,14 @@
+body{
+    
+    background-color: aqua;
+}
+#quote-box{
+    position: absolute;
+    border: 2px solid black;
+    height: 30vh;
+    width: 35vw;
+    top: 35%;
+    left: 32%;
+    padding: 1rem 2rem;
+    
+}
