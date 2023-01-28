@@ -1,6 +1,9 @@
+:root{
+    --theme: #04E824;
+}
 body{
     
-    background-color: aqua;
+    background-color: var(--theme);
 }
 #quote-box{
     margin: auto;
@@ -9,12 +12,12 @@ body{
     width: 35vw;
     padding: 1rem 2rem;
     background-color: white;
-    color: aqua;
+    color: var(--theme);
     border-radius: 0.5rem;
 }
 #new-quote, #tweet-quote{
     padding: 0.5rem 0.75rem;
-    background-color: aqua;
+    background-color: var(--theme);
     color: white;
     border: none;
     border-radius: 0.25rem;
