@@ -34,3 +34,7 @@ body{
     font-style: italic;
     transition: 200ms ease-in-out;
 }
+#signature{
+    color: white;
+    text-align: center;
+}
